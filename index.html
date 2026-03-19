@@ -4,139 +4,285 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Russell Lubinski | App Support and Privacy</title>
-  <meta name="description" content="Support and privacy information for apps developed by Russell Lubinski." />
-  <link rel="icon" type="image/png" href="app-icon.png" />
-  <link rel="apple-touch-icon" href="app-icon.png" />
+  <meta name="description"
+    content="Russell Lubinski is an independent app developer. Find app information, privacy details, support guidance, and FAQs for current and future releases." />
+  <title>Russell Lubinski | Support, Privacy, and Apps</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="index.html">
-        <img class="brand-mark" src="app-icon.png" alt="Russell Lubinski app icon" />
-        <span class="brand-stack">
-          <span>Russell Lubinski</span>
-          <small>INDEPENDENT APP DEVELOPER</small>
-        </span>
-      </a>
-      <nav class="nav-links">
-        <a href="index.html" class="active">Home</a><a href="apps.html">Apps</a><a href="privacy.html">Privacy</a><a
-          href="support.html">Support</a>
-      </nav>
-    </div>
-  </header>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
+  <div class="site-shell">
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Russell Lubinski home">
+          <img class="brand-mark" src="app-icon.png" alt="Russell Lubinski app icon">
+          <span class="brand-text">
+            <span class="brand-name">Russell Lubinski</span>
+            <span class="brand-name-subtitle">Independent App Developer</span>
+          </span>
+        </a>
 
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="panel hero-copy">
-        <p class="eyebrow">Independent apps. Transparent policies.</p>
-        <h1>Support, privacy, and app information in one place.</h1>
-        <p class="lead">
-          Welcome to russelllubinski.us. This site covers mobile apps developed by Russell
-          Lubinski, including current releases and future products. You can find support
-          details, privacy information, and app-specific notes here.
-        </p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="support.html">Get support</a>
-          <a class="button button-secondary" href="privacy.html">Read privacy policy</a>
-        </div>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
+          aria-label="Open navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#apps">Apps</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#support">Support</a>
+          <a href="#faq">FAQ</a>
+        </nav>
       </div>
+    </header>
 
-      <aside class="panel hero-card">
+    <main id="main-content">
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Simplicity in mind.</p>
+            <h1>Support, privacy, and app information in one place.</h1>
+            <p class="hero-text">
+              This site provides support, privacy information, and app
+              details for applications developed by Russell Lubinski,
+              including current and future releases.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#support">Get Support</a>
+              <a class="button button-secondary" href="#apps">View Apps</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel reveal reveal-delay" aria-label="Site overview">
+            <div class="hero-card glass-card">
+              <p class="panel-label">Developer hub</p>
+              <ul class="hero-points">
+                <li>Privacy-first app information</li>
+                <li>Direct support workflow</li>
+                <li>Current apps and future releases</li>
+              </ul>
+            </div>
+            <div class="stats-row">
+              <article class="glass-card stat-card">
+                <span class="stat-number">1</span>
+                <span class="stat-label">Live app listed</span>
+              </article>
+              <article class="glass-card stat-card">
+                <span class="stat-number">More</span>
+                <span class="stat-label">Releases planned</span>
+              </article>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="apps" aria-labelledby="apps-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow"> </p>
+            <h2 id="apps-title">Apps Developed</h2>
+            <p>
+              Tools built with clarity.
+            </p>
+          </div>
+
+          <div class="card-grid apps-grid">
+            <article class="glass-card app-card reveal">
+              <div class="card-topline">
+                <span class="pill">Current App</span>
+              </div>
+              <h3>VA Claim Compass</h3>
+              <p>
+                VA Claim Compass helps veterans and service members estimate VA
+                disability compensation scenarios for planning purposes.
+              </p>
+              <ul class="feature-list">
+                <li>Planning and estimation tool only</li>
+                <li>Does not submit VA claims</li>
+                <li>Does not connect to VA systems</li>
+                <li>Stores claim scenario data locally on device</li>
+              </ul>
+            </article>
+
+            <article class="glass-card app-card reveal reveal-delay">
+              <div class="card-topline">
+                <span class="pill pill-muted">Coming Soon</span>
+              </div>
+              <h3>Future Apps</h3>
+              <p>
+                Additional apps and utilities will be added here over time,
+                along with support details and privacy information for each
+                release.
+              </p>
+              <div class="coming-soon-panel">
+                <span class="dot" aria-hidden="true"></span>
+                <span>More tools are in development.</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="privacy" aria-labelledby="privacy-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow"> </p>
+            <h2 id="privacy-title">Privacy Policy</h2>
+            <p>
+              Apps that I develop are designed to respect user
+              privacy and minimize unnecessary data collection.
+            </p>
+          </div>
+
+          <article class="glass-card policy-card reveal">
+            <h3>YOUR DATA MATTERS!</h3>
+            <div class="policy-grid">
+              <div>
+                <p>
+                  No personal information is collected unless an app
+                  explicitly says otherwise.
+                </p>
+              </div>
+              <div>
+                <p>
+                  No personal data is transmitted to external servers unless
+                  clearly disclosed.
+                </p>
+              </div>
+              <div>
+                <p>
+                  No user information is sold or shared with third parties.
+                </p>
+              </div>
+              <div>
+                <p>
+                  Some apps may store user-created data locally on the device
+                  to support core functionality.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="support" aria-labelledby="support-title">
+        <div class="container support-layout">
+          <div class="section-heading reveal support-copy">
+            <p class="eyebrow"> </p>
+            <h2 id="support-title">Support</h2>
+            <p>
+              Use the support form below to open your email app with a draft
+              message addressed to Russell Lubinski support.
+            </p>
+            <div class="support-guidance glass-card">
+              <h3>Include these details</h3>
+              <ul class="feature-list compact-list">
+                <li>Device model</li>
+                <li>iOS version</li>
+                <li>App name and version</li>
+                <li>Brief description of the issue</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="glass-card support-card reveal reveal-delay">
+            <form class="support-form" id="support-form" novalidate>
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="John Doe" autocomplete="name" />
+              </div>
+
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="youremail@example.com" autocomplete="email"
+                  inputmode="email" />
+              </div>
+
+              <div class="form-row">
+                <label for="app">App</label>
+                <input id="app" name="app" type="text" placeholder="VA Claim Compass" />
+              </div>
+
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6"
+                  placeholder="Tell me what happened and what you expected." required></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button class="button button-primary" type="submit">
+                  Open Email Draft
+                </button>
+                <p class="form-note" id="form-note" aria-live="polite">
+                  Your default email app should open with a pre-filled draft.
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq" aria-labelledby="faq-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2 id="faq-title">Frequently Asked Questions</h2>
+            <p>
+              A few quick answers about VA Claim Compass and how app data is
+              handled.
+            </p>
+          </div>
+
+          <div class="faq-list">
+            <details class="glass-card faq-item reveal">
+              <summary>Does VA Claim Compass submit VA claims?</summary>
+              <p>
+                No. Claim Compass is a planning and estimation tool only. It
+                does not submit claims or interact with VA systems.
+              </p>
+            </details>
+
+            <details class="glass-card faq-item reveal reveal-delay">
+              <summary>Are compensation estimates official?</summary>
+              <p>
+                No. Estimates are based on publicly available VA compensation
+                tables and rating rules, but they are not official
+                determinations.
+              </p>
+            </details>
+
+            <details class="glass-card faq-item reveal">
+              <summary>Is my data shared with anyone?</summary>
+              <p>
+                No. App data is not transmitted to external servers unless
+                explicitly disclosed.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
         <div>
-          <p class="eyebrow">Current focus</p>
-          <div class="stat-list">
-            <div class="stat">
-              <strong>VA Claim Compass</strong>
-              <span>VA disability compensation planning and estimation</span>
-            </div>
-            <div class="stat">
-              <strong>Privacy-first approach</strong>
-              <span>Local-first storage unless an app clearly states otherwise</span>
-            </div>
-            <div class="stat">
-              <strong>Future-ready</strong>
-              <span>This site is structured to support my growing portfolio of apps</span>
-            </div>
-          </div>
+          <p>&copy; <span id="year"></span> Russell Lubinski</p>
+          <p class="footer-domain">russelllubinski.us</p>
         </div>
-      </aside>
-    </div>
-  </section>
 
-  <main>
-    <section>
-      <div class="container grid-3">
-        <article class="card">
-          <h3>Support</h3>
-          <p>Need help with an app, found a bug, or want to suggest a feature? Start with the support page.</p>
-        </article>
-        <article class="card">
-          <h3>Privacy</h3>
-          <p>Review the general privacy policy and app-specific notes for current releases.</p>
-        </article>
-        <article class="card">
-          <h3>Apps</h3>
-          <p>See current releases.</p>
-        </article>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#privacy">Privacy</a>
+          <a href="#support">Support</a>
+          <a href="#apps">Apps</a>
+        </nav>
       </div>
-    </section>
-
-    <section>
-      <div class="container grid-2">
-        <article class="card app-card">
-          <span class="app-badge">Current app</span>
-          <h2>VA Claim Compass</h2>
-          <p class="copy">
-            VA Claim Compass helps veterans and service members estimate VA disability
-            compensation scenarios for planning purposes.
-          </p>
-          <ul class="list">
-            <li>Scenario planning and estimation only</li>
-            <li>Does not submit VA claims</li>
-            <li>Does not interact with VA systems</li>
-            <li>Stores claim scenario data locally on device</li>
-          </ul>
-          <div class="inline-actions">
-            <a class="button button-primary" href="support.html">Support</a>
-            <a class="button button-secondary" href="privacy.html">Privacy</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <p class="eyebrow">Developer home base</p>
-          <h2>Built around one domain</h2>
-          <p class="copy">
-            This website is set up as a developer home base rather than
-            a single-app support page. Everything you need from support and privacy information to app details, all in
-            one place!
-          </p>
-          <!-- <div class="notice">
-            For app support, bug reports, or feature requests, use
-            <a href="mailto:support@russelllubinski.us">support@russelllubinski.us</a>.
-          </div> -->
-        </article>
-      </div>
-    </section>
-  </main>
-
-
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div>
-        <p>© <span id="year"></span> Russell Lubinski</p>
-        <p>russelllubinski.us</p>
-      </div>
-      <div class="footer-links">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="support.html">Support</a>
-        <a href="apps.html">Apps</a>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>
