@@ -216,6 +216,7 @@ button {
   line-height: 1.1;
 }
 
+.brand-name-subtitle,
 .brand-domain {
   font-size: 0.84rem;
   color: var(--muted);
